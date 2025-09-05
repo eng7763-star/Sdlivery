@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="64dp">
+
+    <TextView
+        android:text="Sdlivery"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_driver"
+        android:text="سائق"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn_school"
+        android:text="مدرسة"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="#43A047"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn_student"
+        android:text="طالب"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="#FBC02D"
+        android:textColor="#fff"/>
+</LinearLayout>
